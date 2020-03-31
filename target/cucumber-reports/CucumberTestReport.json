@@ -1,0 +1,313 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-31T08:40:32.617Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Facebook create account Test scenario",
+        "description": "",
+        "id": "facebook-create-account-functionality;facebook-create-account-test-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 55427000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.CreateAccountStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 857000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Title of Login Page is Facebook",
+            "match": {
+              "location": "StepDefinitions.CreateAccountStepDefinition.title_of_login_page_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5008000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"selenium\" and \"automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium",
+                  "offset": 13
+                },
+                {
+                  "val": "automation",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.CreateAccountStepDefinition.user_enters_firstname_and_lastname(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 627000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters emailid \"selenium@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium@yahoo.com",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CreateAccountStepDefinition.user_enters_emailid(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters password \"Gauri_6494\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gauri_6494",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.CreateAccountStepDefinition.user_enters_newPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects \"Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Female",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.CreateAccountStepDefinition.user_selects_gender(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Compound class names not permitted\n  (Session info: chrome\u003d80.0.3987.149)\n  (Driver info: chromedriver\u003d2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform\u003dWindows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027WIN\u0027, ip: \u0027192.168.1.3\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}\nSession ID: 5abdb3bf4bde5488ff2ed69837bf1766\n*** Element info: {Using\u003dclass name, value\u003d_42ft _4jy0 layerConfirm _2rsa uiOverlayButton _4jy3 _4jy1 selected _51sy}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat StepDefinitions.CreateAccountStepDefinition.user_clicks_on_signup_button(CreateAccountStepDefinition.java:62)\r\n\tat ✽.user clicks on SignUp button(file:///D:/Selenium_Tutorials/FreeCRMBDDProject/src/test/java/Features/CreateAccount.feature:13)\r\n",
+              "duration": 919000000,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user clicks on SignUp button",
+            "match": {
+              "location": "StepDefinitions.CreateAccountStepDefinition.user_clicks_on_signup_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user creates account successfully",
+            "match": {
+              "location": "StepDefinitions.CreateAccountStepDefinition.user_creates_account_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook create account functionality",
+    "description": "",
+    "id": "facebook-create-account-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/CreateAccount.feature",
+    "tags": [
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-31T08:41:37.014Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Facebook Login Test scenario",
+        "description": "",
+        "id": "facebook-login-functionality;facebook-login-test-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37879000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "title of Login Page is Facebook",
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.title_of_login_page_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 597000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter email and password",
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.user_enter_email_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "gouri_bhale@yahoo.com",
+                  "Gauri_6494"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173159000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login functionality",
+    "description": "",
+    "id": "facebook-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/login.feature",
+    "tags": [
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
